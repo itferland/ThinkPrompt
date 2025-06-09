@@ -2,3 +2,21 @@
   label: Project
 - name: gem
   label: Prompt Gem
+- name: worldbuilding
+  label: Worldbuilding
+- name: scifi
+  label: Sci-Fi
+- name: creativewriting
+  label: Creative Writing
+- name: fiction
+  label: Fiction
+- name: instructional
+  label: Instructional
+- name: webdev
+  label: Web Development
+- name: html
+  label: HTML
+- name: css
+  label: CSS
+- name: javascript
+  label: JavaScript
