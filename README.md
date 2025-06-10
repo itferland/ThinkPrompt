@@ -36,28 +36,6 @@ To get a local copy up and running:
 
 If you don't have Ruby/Jekyll set up, you can still browse the prompts directly in the `_prompts/` directory and view the main page by opening `index.html` in your browser (though Jekyll-specific features won't work).
 
-## ✍️ Adding New Prompts
-
-We welcome contributions! To add a new prompt:
-
-1.  Create a new Markdown file (e.g., `my-new-prompt.md`) in the `_prompts/` directory.
-2.  Add Jekyll frontmatter at the top of the file. Ensure you include:
-    *   `title`: A descriptive title for your prompt.
-    *   `tool`: The AI tool(s) the prompt is best suited for (e.g., `ChatGPT`, `Midjourney`, `Suno`).
-    *   `tags`: A list of relevant tags (lowercase, use existing tags from `_data/tags.yml` if applicable, or suggest new ones).
-    *   `category`: The main category for the prompt (e.g., `text`, `image`, `instructional`, `gem`).
-
-    Example frontmatter:
-    ```yaml
-    ---
-    title: Generate a Python Script for Web Scraping
-    tool: ChatGPT-4
-    tags: [code, python, webscraping, instructional]
-    category: instructional
-    ---
-    ```
-3.  Write the body of your prompt in Markdown below the frontmatter. Be clear and concise.
-
 ## 🏷 Adding New Tags
 
 If your prompt requires a new tag:
