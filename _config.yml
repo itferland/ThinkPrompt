@@ -1,0 +1,29 @@
+title: ThinkPrompt
+description: A curated library of powerful AI prompts
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  prompts:
+    output: true
+    permalink: /prompts/:path/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "prompts"
+    values:
+      layout: "prompt"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default" 
